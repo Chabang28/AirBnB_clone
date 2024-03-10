@@ -17,4 +17,3 @@ class Amenity(BaseModel):
         """Initialize Amenity instance."""
         super().__init__(*args, **kwargs)
         self.name = ""
-

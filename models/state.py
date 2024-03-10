@@ -16,4 +16,3 @@ class State(BaseModel):
         """Initializes a State instance."""
         super().__init__(*args, **kwargs)
         self.name = ""
-

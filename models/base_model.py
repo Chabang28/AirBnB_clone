@@ -33,7 +33,6 @@ class BaseModel:
             self.created_at = datetime.now()
             self.updated_at = datetime.now()
             models.storage.new(self)
-    
 
     def __str__(self):
         '''String representation of BaseModel instance'''
@@ -52,4 +51,3 @@ class BaseModel:
         base_dict['updated_at'] = self.updated_at.isoformat()
         base_dict['__class__'] = type(self).__name__
         return base_dict
-

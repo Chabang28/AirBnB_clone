@@ -9,4 +9,3 @@ storage = FileStorage()
 
 # Ensure data is loaded into the storage instance
 storage.reload()
-
